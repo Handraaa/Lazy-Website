@@ -65,7 +65,10 @@ window.addEventListener('load', () => {
 		});
 		
 	});
+	
+	
 });
+
 
 //calculator
 
@@ -213,3 +216,5 @@ clear.addEventListener('click', () => {
 	clearResult()
 	updateResult()
 });
+
+//clock

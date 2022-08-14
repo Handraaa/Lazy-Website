@@ -9,23 +9,17 @@
 }
 
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    font-family: monospace;
-}
+
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    
+    box-sizing: border-box;
+    margin: 0;
+    font-family: monospace;
     background-image: linear-gradient(to right top, #1f1d1f, #271f27, #30212f, #392336, #42243e);
 }
-#navigation {
-    height: 5vh;
-    position: fixed;
-    display: flex;
-}
+
 header {
     padding: 2rem 1rem;
     max-width: 800px;
@@ -65,7 +59,7 @@ input, button {
     font-weight: 700;
     background-image: linear-gradient(to right, var(--pink),
     var(--purple));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
     transition: 0.4s;
@@ -136,7 +130,7 @@ main {
 .task .actions .edit {
     background-image: linear-gradient(to right, var(--pink),
     var(--purple));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .task .actions .delete {
